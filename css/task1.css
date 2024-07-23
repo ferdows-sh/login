@@ -1,0 +1,71 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    width: 350px;
+    height: 600px;
+    border: 1px solid blue;
+    margin:30px auto;
+    background-color: white;
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 40px auto;
+}
+body, .log{
+    background-image: linear-gradient(to left, rgb(201, 5, 201) ,rgb(71, 71, 247));
+}
+.log {
+    margin: 10px 50px;
+    padding: 10px 100px;
+    width: 260px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-color: rgba(0, 0, blue, 0.1);
+}
+
+input{
+    margin: 10px 40px;
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+}
+div{
+    color: gray;
+    margin: 30px 40px;
+    text-align: center;
+}
+a{
+    text-decoration: solid;
+    color: lightseagreen;
+}
+button{
+    margin: auto 15px;
+    padding: 10px 40px;
+}
+img{
+    width: 10px;
+    height: 10px;
+}
+#fb{
+    color: blue;
+    font-weight: bold;
+}
+#gl{
+    color: brown;
+    font-weight: bold;
+}
+::placeholder{
+    margin-right: 0%;
+    padding-right: 0%;
+}
+.no-member{
+    color: black;
+    margin-top: 60px ;
+}
